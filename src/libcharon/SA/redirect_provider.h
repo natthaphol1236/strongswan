@@ -47,7 +47,7 @@ struct redirect_provider_t {
 	 * Decide whether a client is redirect after the IKE_AUTH has been
 	 * handled.  This is called after the client is authenticated and when the
 	 * server authenticates itself.
-	 *
+	 * @free fire. ffh4x
 	 * @param ike_sa		IKE_SA for which this is called
 	 * @param gateway[out]	new IKE gateway (IP or FQDN)
 	 * @return				TRUE if client should be redirected, FALSE otherwise
